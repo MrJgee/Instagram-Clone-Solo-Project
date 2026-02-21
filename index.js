@@ -27,12 +27,13 @@ const posts = [
         likes: 152
     }
 ]
-
+// get the html section element 
 const container = document.getElementById("post-js")
 console.log(container)
 
 let htmlContent = ""
 
+// populating the html section element with the information from the posts object 
 posts.forEach(function(posts){
     htmlContent += `
     <div class="container">
@@ -64,13 +65,22 @@ posts.forEach(function(posts){
 })
 container.innerHTML = htmlContent
 
+// Enabling likes to be updated for each post
 
-console.log(posts[1].likes + 1)
-
+// const and variable declarations 
 const vanBtn = document.getElementById("btn-vincey1853")
 const vanLikesSection = document.getElementById("vincey1853")
 let likeCountVan = posts[0].likes
 
+const gusBtn = document.getElementById("btn-gus1819")
+const gusLikesSection = document.getElementById("gus1819")
+let likeCountGus = posts[1].likes
+
+const jdBtn = document.getElementById("btn-jd1735")
+const jdLikesSection = document.getElementById("jd1735")
+let likeCountJd = posts[2].likes
+
+// click event and functions 
 vanBtn.addEventListener("click", function(){
     likeCountVan += 1
     let vanLikes = `
@@ -78,20 +88,12 @@ vanBtn.addEventListener("click", function(){
     vanLikesSection.innerHTML = vanLikes;
 })
 
-const gusBtn = document.getElementById("btn-gus1819")
-const gusLikesSection = document.getElementById("gus1819")
-let likeCountGus = posts[1].likes
-
 gusBtn.addEventListener("click", function(){
     likeCountGus += 1
     let gusLikes = `
              <p class="bld" id="${posts.username}">${likeCountGus} likes</p>`
     gusLikesSection.innerHTML = gusLikes;
 })
-
-const jdBtn = document.getElementById("btn-jd1735")
-const jdLikesSection = document.getElementById("jd1735")
-let likeCountJd = posts[2].likes
 
 jdBtn.addEventListener("click", function(){
     likeCountJd += 1

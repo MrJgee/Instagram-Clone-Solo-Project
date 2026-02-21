@@ -1,13 +1,20 @@
 # Instagram Clone Solo Project
 This is the instagram clone solo project for the scrimba full stack developer course! This is my attempt! 
 
+## Site Preview
+Here is a preview of the site!
 
+![Screenshot of the site showing how it looks, a header an image, a like count and comments](images/site-preview.png)
 
+### Live site
+Find the link to the live site [here](inserturlhere)
 
+## Tools used
+Here is a list of the tools used:
 
-
-
-
+* HTML
+* CSS
+* Vanilla Javascript
 
 ## About Scrimba
 
