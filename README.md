@@ -7,7 +7,7 @@ Here is a preview of the site!
 ![Screenshot of the site showing how it looks, a header an image, a like count and comments](images/site-preview.png)
 
 ### Live site
-Find the link to the live site [here](inserturlhere)
+Find the link to the live site [here](https://mrjgee.github.io/Instagram-Clone-Solo-Project/)
 
 ## Tools used
 Here is a list of the tools used:
